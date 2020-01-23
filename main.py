@@ -5,11 +5,13 @@ while True:
     a=int(input("Enter number #1:"))
     b=int(input("Enter number #2:"))
 
-    query=input("What you do?:")
-    print("Enter + for Addition")
+    print("\nEnter + for Addition")
     print("Enter - for Subtraction")
     print("Enter * for Multiplication")
-    print("Enter / for Divition")
+    print("Enter / for Divition\n")
+
+    query=input("What you do?:")
+    print()
 
     if a==45:
         if b==3:
@@ -38,8 +40,9 @@ while True:
                         print("Division is not Possible.")
                     else:
                         print("Your Answer is",a/b)
-   res=int(input("Do You Want To do again press 1(means yes) or 0(means no)"))
-   if res == 0:
+    res=int(input("\nDo You Want To do again press 1(means yes) or 0(means no): "))
+    if res == 0:
         break
         exit
 input("Press Enter")
+
