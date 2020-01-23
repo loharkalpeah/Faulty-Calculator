@@ -5,10 +5,10 @@ a=int(input("Enter number #1:"))
 b=int(input("Enter number #2:"))
 
 query=input("What you do?:")
-# query=query.capitalize()
-# query=query.replace(query,"")
-
-# print(query)
+print("Enter + for Addition")
+print("Enter - for Subtraction")
+print("Enter * for Multiplication")
+print("Enter / for Divition")
 
 if a==45:
     if b==3:
@@ -26,7 +26,6 @@ if a==56:
 if a!=45 or b!=3:
     if a!=56 or b != 9:
         if b !=6:
-        #    print(query)
            if query=="+":
                print("Your Answer is",a+b)
            elif query=="-":
